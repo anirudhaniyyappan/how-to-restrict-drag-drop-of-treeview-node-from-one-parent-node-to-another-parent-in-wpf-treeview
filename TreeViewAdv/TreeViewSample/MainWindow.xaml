@@ -9,7 +9,7 @@
     <Grid>        
         <syncfusion:TreeViewAdv Margin="10" x:Name="tree" AllowDragDrop="True" ItemsSource="{Binding TreeItems}">
             <syncfusion:TreeViewAdv.ItemTemplate>
-                <HierarchicalDataTemplate ItemsSource="{Binding SubItems}">
+                <HierarchicalDataTemplate>
                     <TextBlock Text="{Binding Header}" />
                 </HierarchicalDataTemplate>
             </syncfusion:TreeViewAdv.ItemTemplate>
