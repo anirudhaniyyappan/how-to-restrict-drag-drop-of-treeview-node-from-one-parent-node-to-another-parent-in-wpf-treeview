@@ -10,9 +10,9 @@ namespace TreeViewSample
     {
         public Model()
         {
-            Nodes = new ObservableCollection<Model>();
+            SubItems = new ObservableCollection<Model>();
         }
         public string Header { get; set; }
-        public ObservableCollection<Model> Nodes { get; set; }
+        public ObservableCollection<Model> SubItems { get; set; }
     }  
 }
